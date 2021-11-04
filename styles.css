@@ -1,0 +1,98 @@
+form {
+    border-width: 0px;
+    border: 3px solid red;
+    border-radius: 10px;
+    border-color: lemonchiffon;
+    background-color: salmon;
+    border-style: none;
+    font-family: 'Varela Round', sans-serif;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+div {
+    border-radius: 10px;
+    background-color: lemonchiffon;
+    padding: 40px;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+label {
+    margin: 30px;
+    margin-top: 30px;
+}
+
+input[type=text],
+select {
+    width: 96%;
+    padding: 12px 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: none;
+    border-color: blueviolet;
+    /*width: 100%;
+    padding: 12px 20px;
+    margin: 20px;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: gold;
+    height: 200%;
+    box-shadow: 0 0 0 rgb(255, 255, 255);*/
+}
+
+input[type=text]:hover {
+    background-color: lavender;
+}
+
+input[type=password]:hover {
+    background-color: lavender;
+}
+
+input[type=password],
+select {
+    width: 96%;
+    padding: 12px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: none;
+    border-color: blueviolet;
+    /*width: 96%;
+    padding: 12px 20px;
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;*/
+}
+
+input[type=submit],
+select {
+    width: 96%;
+    padding: 12px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: none;
+    border-color: blueviolet;
+    /*width: 96%;
+    padding: 12px 20px;
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;*/
+}
+
+input[type=submit]:hover {
+    background-color: skyblue;
+}
