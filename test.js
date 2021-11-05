@@ -6,6 +6,7 @@ function go() {
 
 function oh() {
     console.log(2 + 2);
+
 }
 
 function inminent_departure() {
@@ -13,5 +14,9 @@ function inminent_departure() {
 }
 
 function stash() {
+    console.log("stas");
+}
+
+function stash2() {
     console.log("stas");
 }
