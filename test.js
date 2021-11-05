@@ -28,3 +28,7 @@ function merge() {
 function megre2() {
     console.log("msef");
 }
+
+function demonstraxd() {
+    console.log("demonstration");
+}
