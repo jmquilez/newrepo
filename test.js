@@ -23,10 +23,12 @@ function stash2() {
 
 function merge() {
     console.log("merg");
+
 }
 
 function megre2() {
     console.log("msef");
+
 }
 
 function demonstraxd() {
@@ -35,4 +37,11 @@ function demonstraxd() {
 
 function nuevafuncion() {
     console.log(2 + 2);
+
+
+}
+
+function mainbranch() {
+    console.log("mainsbr");
+
 }
