@@ -23,4 +23,14 @@ function stash2() {
 
 function merge() {
     console.log("merg");
+
+}
+
+function megre2() {
+    console.log("msef");
+
+}
+
+function mainbranch() {
+    console.log("mainsbr");
 }
