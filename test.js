@@ -11,3 +11,7 @@ function oh() {
 function inminent_departure() {
     console.log("cssp");
 }
+
+function stash() {
+    console.log("stas");
+}
