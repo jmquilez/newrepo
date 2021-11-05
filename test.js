@@ -32,3 +32,7 @@ function megre2() {
 function demonstraxd() {
     console.log("demonstration");
 }
+
+function nuevafuncion() {
+    console.log(2 + 2);
+}
