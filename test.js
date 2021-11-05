@@ -21,6 +21,10 @@ function stash2() {
     console.log("stas");
 }
 
+function merge() {
+    console.log("merg");
+}
+
 function megre2() {
     console.log("msef");
 }
