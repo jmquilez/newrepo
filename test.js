@@ -20,3 +20,7 @@ function stash() {
 function stash2() {
     console.log("stas");
 }
+
+function megre2() {
+    console.log("msef");
+}
