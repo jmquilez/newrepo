@@ -13,6 +13,8 @@ function inminent_departure() {
     console.log("cssp");
 }
 
+
+
 function stash() {
     console.log("stas");
 }
@@ -24,6 +26,21 @@ function stash2() {
 function merge() {
     console.log("merg");
 
+}
+
+function redirect() {
+    window.URL = "http://127.0.0.1/login_usuario";
+}
+
+function se() {
+    var x = document.getElementById("togs");
+    if (x.type === "password") {
+        x.type = "text";
+        console.log("pass")
+    } else {
+        x.type = "password";
+        console.log("text")
+    }
 }
 
 function megre2() {
