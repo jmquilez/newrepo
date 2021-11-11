@@ -1,0 +1,215 @@
+form {
+    border-width: 0px;
+    border: 3px solid red;
+    border-radius: 7px;
+    border-color: lemonchiffon;
+    border-style: none;
+    font-family: 'Architects Daughter', cursive;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background: linear-gradient(90deg, rgba(238, 172, 238, 1) 0%, rgba(107, 1, 102, 1) 62%, rgba(0, 212, 255, 1) 100%);
+}
+
+input[type="date"] {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: none;
+    border-color: blueviolet;
+}
+
+.thec {
+    border-radius: 8px;
+    padding: 40px;
+    margin: 20px;
+    height: 20%;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(65, 204, 231, 1) 0%, rgba(1, 107, 78, 1) 62%, rgba(255, 169, 0, 1) 100%);
+}
+
+input[type="radio"] {}
+
+.choose {
+    color: aquamarine;
+}
+
+.thes {
+    border-radius: 12px;
+    background-color: lemonchiffon;
+    padding: 15px;
+    margin: 20px;
+}
+
+.Radio {
+    display: inline-flex;
+    align-items: center;
+}
+
+.Radio--large {
+    font-size: 2rem;
+}
+
+.Radio-Input {
+    margin: 0 0.5rem 0;
+    position: static;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-align: center;
+    top: -14px;
+    position: relative;
+}
+
+label {
+    margin: 30px;
+    margin-top: 30px;
+}
+
+input[type=text],
+select {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: none;
+    border-color: blueviolet;
+    /*width: 100%;
+    padding: 12px 20px;
+    margin: 20px;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: gold;
+    height: 200%;
+    box-shadow: 0 0 0 rgb(255, 255, 255);*/
+}
+
+input[type=email],
+select {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: none;
+    border-color: blueviolet;
+    /*width: 100%;
+    padding: 12px 20px;
+    margin: 20px;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: gold;
+    height: 200%;
+    box-shadow: 0 0 0 rgb(255, 255, 255);*/
+}
+
+input[type=text]:hover {
+    background-color: lemonchiffon;
+}
+
+input[type=password]:hover {
+    background-color: lemonchiffon;
+}
+
+input[type=email]:hover {
+    background-color: lemonchiffon;
+}
+
+.wrapper {
+    width: 96%;
+    border-radius: 12px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+input[type="radio"] {
+    top: -20px;
+    height: 30px;
+}
+
+.select {
+    width: 100%;
+    padding: 0px 0px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: none;
+    border-color: blueviolet;
+}
+
+select {
+    border-radius: 40px;
+}
+
+.drugger {
+    height: 30px;
+}
+
+input[type=password],
+select {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: none;
+    border-color: blueviolet;
+    /*width: 96%;
+    padding: 12px 20px;
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;*/
+}
+
+.csrp {
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit],
+select {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: none;
+    border-color: blueviolet;
+    /*width: 96%;
+    padding: 12px 20px;
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;*/
+}
+
+input[type=submit]:hover {
+    background-color: rgb(139, 255, 124);
+}
+
+input[type=date]:hover {
+    background-color: lemonchiffon;
+}
+
+select:hover {
+    background-color: lemonchiffon;
+}

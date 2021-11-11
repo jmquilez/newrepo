@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b7c99d83a6.js" crossorigin="anonymous"></script>
+    <script src="test.js"></script>
+    <title>FORM SUBMISSION</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>TITLE SUBMISSION</h1>
+        <form id="formulaire" action="http://127.0.0.1/login_usuario">
+            <label for="fname">Username</label>
+            <input type="text" placeholder="user_name" name="user_name">
+            <label for="email">Email</label>
+            <input type="email" placeholder="email">
+            <label for="password">Password</label>
+            <input type="password" placeholder="password">
+            <!--<button class="togpass" style="background-color: transparent; border-radius: 10px; border-width: 1px; position: relative; top: -58.5px; left: 1000px;"><i class="fas fa-eye" style="background-color: transparent; border-radius: 10px;"></i></button>-->
+
+            <label for="password" style="top: -20px; position: relative;">Repeat password</label>
+            <input type="password" placeholder="repeat password" style="top: -20px; position: relative;">
+            <input type="submit" value="Submit" onclick="redirect()">
+
+
+        </form>
+        <!--<button id="togs" onclick="se()" style="background-color: transparent; border-radius: 8px; border-width: 0px; position: relative; top: -165px; left: 1000px; border-width: 0px; "><i class="fas fa-eye" style="background-color: transparent; border-radius: 10px;"></i></button>
+        <button id="togs" onclick="se()" style="background-color: transparent; border-radius: 8px; border-width: 0px; position: relative; top: -294px; left: 966px; border-width: 0px; "><i class="fas fa-eye" style="background-color: transparent; border-radius: 10px;"></i></button>-->
+    </div>
+
+</body>
+
+</html>
