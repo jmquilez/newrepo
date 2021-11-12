@@ -8,12 +8,20 @@ form {
     padding-bottom: 0px;
     padding-top: 0px;
     background-color: rgb(204, 115, 115);
+    width: 50%;
+    align-items: center;
+    margin: auto;
     /*background: linear-gradient(90deg, rgba(238, 172, 238, 1) 0%, rgba(107, 1, 102, 1) 62%, rgba(0, 212, 255, 1) 100%);*/
 }
 
 input[type="color"] {
-    width: 827px;
+    width: 85.5%;
     border-radius: 5px;
+    display: flex;
+}
+
+input[type="color"]:hover {
+    background-color: lemonchiffon;
 }
 
 input[type="date"] {
@@ -35,6 +43,7 @@ input[type="date"] {
 }
 
 body {
+    align-items: center;
     background: linear-gradient(90deg, rgba(65, 204, 231, 1) 0%, rgba(1, 107, 78, 1) 62%, rgba(255, 169, 0, 1) 100%);
 }
 
@@ -185,7 +194,7 @@ select {
 }
 
 .csrp {
-    margin-left: 170px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
 }
