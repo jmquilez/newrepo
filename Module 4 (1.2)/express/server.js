@@ -43,6 +43,6 @@ app.set('view engine', 'handlebars');
 app.use('/', routes);
 
 
-app.listen(8080, () => {
-    console.log('Server is starting at port ', 8080);
+app.listen(3001, () => {
+    console.log('Server is starting at port ', 3001);
 });

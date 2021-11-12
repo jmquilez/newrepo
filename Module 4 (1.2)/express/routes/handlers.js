@@ -8,8 +8,9 @@ router.get('/', (req, res) => {
         title: 'Home Page',
         name: 'Esterling Accime',
         style:  'home.css',
+        
         age: 5,
-        isDisplayName: true,
+        isDisplayName: false,
         isAgeEnabled: true,
         people: [
             {firstName: "Yehuda", lastName: "Katz"},

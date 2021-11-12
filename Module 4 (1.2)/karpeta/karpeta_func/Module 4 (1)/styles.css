@@ -7,7 +7,13 @@ form {
     font-family: 'Architects Daughter', cursive;
     padding-bottom: 0px;
     padding-top: 0px;
-    background: linear-gradient(90deg, rgba(238, 172, 238, 1) 0%, rgba(107, 1, 102, 1) 62%, rgba(0, 212, 255, 1) 100%);
+    background-color: rgb(204, 115, 115);
+    /*background: linear-gradient(90deg, rgba(238, 172, 238, 1) 0%, rgba(107, 1, 102, 1) 62%, rgba(0, 212, 255, 1) 100%);*/
+}
+
+input[type="color"] {
+    width: 827px;
+    border-radius: 5px;
 }
 
 input[type="date"] {
